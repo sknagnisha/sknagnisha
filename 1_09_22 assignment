@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<stdio.h>
+int OddEven(int);
+void main()
+{
+   int n1;
+   clrscr();
+   printf("Enter number for check Odd or Even:");
+   scanf("%d",&n1);
+   OddEven(n1);
+   getch();
+}
+int OddEven(int n1)
+{  
+     if(n1%2==0)
+     {
+        printf("%d is Even",n1);
+     }
+     else
+     {
+        printf("%d is Odd",n1);
+     }
+}
